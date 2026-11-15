@@ -1,0 +1,28 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Temporary TOTP files
+totp_qr.txt
+totp_qr.png
+
+# Database files
+*.db
+*.sqlite3
+
+# Uploads
+uploads/
+
+# Temporary development files
+generate_totp_qr.py
+migrations_backup/
+pytest_full_output.txt
+e2e_error.txt
+generate_totp_qr.py
